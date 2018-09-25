@@ -1,5 +1,7 @@
 <?php
 define('ROOT',__DIR__."/../");
+// 导入函数文件
+require(ROOT."libs/functions.php");
 // 类的自动加载
 function load($class)
 {
